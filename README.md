@@ -23,6 +23,8 @@ Definition of data cleaning issues
 - Replace `True` and `False` values in `IsBorrowerHomeowner` to have `Yes` or `No`
 
 ## Summary of Findings
+In this dataset, I am interested in borrowers features and features related to loan or those that affect loan performance.I am focused mainly on the original loan amount, borrower's rate, Prosper rating, loan term and borrower's stated monthly income.
+
 I noticed that the Borrower Rate has positive correlation with the amount borrowed. The amount borrowed increased with higher ratings across all terms.
 From the analysis I was able to find out that those borrowers with Full time job was getting lowest interest rate over time and those who are self employed and Not employed had high interest rate.
 Also those employed and those with full time job got lowest interests compared with those who are not employed.
